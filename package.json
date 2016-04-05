@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "postinstall": "bower install",
+    "build": "pulp browserify --to app.js",
+    "watch": "pulp -w browserify --to app.js"
+  },
+  "dependencies": {
+    "virtual-dom": "^2.1.1"
+  },
+  "devDependencies": {
+    "pulp": "^8.1.1",
+    "purescript": "^0.8.3"
+  }
+}
